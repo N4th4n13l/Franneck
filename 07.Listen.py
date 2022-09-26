@@ -2,7 +2,8 @@
 
 # a0a + b oder a + a = b
 # extend oder append  --  erweitern oder anhängen
-# insert, pop, count, iterieren
+# insert, pop, count, iterieren, remove
+# stripe
 
 einkaufs_liste = ['milch', 'wasser', 'eier', 'apfel']
 zusatz_liste = ['packpulver', 'bananen']
@@ -29,4 +30,9 @@ print(einkaufs_liste.count('milch')) # COUNT  -- !!  zählen was wie viel in Lis
 for val in einkaufs_liste:  # Beste Variante um die einzelnen Elemente einer Liste anzuzeigen
     print(val)
     
-
+items = ['schere', 'föhn', 'wasser']
+items.insert(2, 'milch') # fügt milch an Index 2 hinzu
+print(items)
+items.sort()  #nach abc sortieren
+print(items) # oder
+print(sorted(items))

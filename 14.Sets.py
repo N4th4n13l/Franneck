@@ -1,4 +1,5 @@
 # Sets | (Mengen)
+# ähnlich wie Tuples können aber nicht geändert werden. Keine Keys
 
 familie_mutter = {'angelika', 'monika', 'barbara'}
 familie_vater = {'dieter', 'anne', 'lothar', 'monika'}

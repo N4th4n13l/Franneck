@@ -1,5 +1,6 @@
 # Funktionen | Eigen Funktionen erstellen
-# immer mit def beginnen und mit: beenden
+# immer mit def beginnen und mit : beenden - einrückung machen
+# definieren und ausführen - def and call
 
 def func(a=None, b=None, c=None):  # Attributen übergeben in der Funktion
     print('A :', a)  # None gleich nichts und der Compiler erwartet auch nichts
@@ -30,5 +31,15 @@ def func02(a=10, b=2, c=None):
 wert = func02(3, 12)
 print(wert)
 
+#---------- weitere BSPs. mit Variablen im Function Name
+def hello(name): # name ist hier ein Parameter
+    print('hello ' + name)
+
+hello('Matthias') # WICHTIG Matthias ist ein Argument zum Parameter oben
+
+def hello(name='my friend'): # hier mit default Text wenn unten kein Argument kommt
+    print('hello ' + name)
+
+hello() # Ohne Argument kommt Default Text oben
 
 
