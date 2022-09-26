@@ -28,3 +28,13 @@ while weiterspielen:  # Etwas so lange machen bis anderer Befehl
     else:
         print('Fall 03')
     weiterspielen = int(input('Weiterspielen? (0 oder 1 ein)!\n'))  # gleich True or False
+
+    # ----------------------------------------------------------------------------
+
+    # while Loops
+    count = 0
+    while count < 10:
+        print('Etwas ist wahr')
+        count = count + 1
+    print('After the loop')
+    # -------------------------------------------------------------------------------
