@@ -42,4 +42,17 @@ def hello(name='my friend'): # hier mit default Text wenn unten kein Argument ko
 
 hello() # Ohne Argument kommt Default Text oben
 
+#---------------- mit return arbeiten  -------------------------------------------------------
+
+def maximum(a,b):
+    if a < b:
+        return b
+    else:
+        return a
+
+result = maximum(3, 7) # maximum ausführen und in Variable speichern
+print(result) # dann ausgeben
+
+
+
 
